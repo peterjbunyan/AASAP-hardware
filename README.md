@@ -21,3 +21,5 @@ Here you can see the almost complete AASAP running the following code to count d
       SUI 1     ; Subtract the immediate value (1) from the A Register
       JNZ loop  ; If the result was not zero, jump to loop
       JMP       ; Jump to start
+
+The board connected at the top of the image is a bootloader based on an Arduino Nano. It can write to and read from RAM, and provides a clock for the AASAP.
